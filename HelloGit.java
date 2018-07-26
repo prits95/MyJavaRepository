@@ -2,16 +2,15 @@ class Hello
 {
     static void displays()
    {
-  sysout("display time");
+  sysout("display date "+newDate());
    }
 	public static void main(String arg[])
 	{
 	System.out.println("Hello world..Welcome to Git ");
 	displays();
-<<<<<<< HEAD
 	Hello obj=new Hello();
 	obj.displays();
-=======
->>>>>>> bug456
+
+
 	}
 }
