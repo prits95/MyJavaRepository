@@ -1,11 +1,14 @@
 class Hello
 {
-    void myMethod()
+    static void displays()
    {
   sysout("display time");
    }
 	public static void main(String arg[])
 	{
-		System.out.println("Hello world..Welcome to Git ");
+	System.out.println("Hello world..Welcome to Git ");
+	displays();
+	Hello obj=new Hello();
+	obj.displays();
 	}
 }
