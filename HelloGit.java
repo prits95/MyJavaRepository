@@ -8,7 +8,10 @@ class Hello
 	{
 	System.out.println("Hello world..Welcome to Git ");
 	displays();
+<<<<<<< HEAD
 	Hello obj=new Hello();
 	obj.displays();
+=======
+>>>>>>> bug456
 	}
 }
